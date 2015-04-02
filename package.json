@@ -1,0 +1,32 @@
+{
+  "name": "concat-object-stream",
+  "version": "0.0.1",
+  "description": "concat-stream for object streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpears/concat-object-stream.git"
+  },
+  "keywords": [
+    "objectMode",
+    "streams",
+    "readable-stream",
+    "concat"
+  ],
+  "author": "Wyatt Pearsall <wyatt.pearsall@cfpb.gov>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpears/concat-object-stream/issues"
+  },
+  "homepage": "https://github.com/wpears/concat-object-stream",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "readable-stream": "^1.0.33"
+  }
+}
